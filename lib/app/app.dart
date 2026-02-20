@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import '../app/routes/route_generator.dart';
-import '../core/settings/app_settings_controller.dart';
+import '../features/shell/presentation/controller/app_settings_controller.dart';
 import '../l10n/app_localizations.dart';
 import '../core/navigation/shell_nav_controller.dart';
 import '../features/splash/presentation/splash_screen.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../core/settings/app_settings_controller.dart';
+import '../../features/shell/presentation/controller/app_settings_controller.dart';
 import '../../features/knapsack/presentation/screens/knapsack_guide_screen.dart';
 import '../../features/knapsack/presentation/screens/knapsack_intro_boarding_screen.dart';
 import '../../features/knapsack/presentation/screens/knapsack_intro_screen.dart';
