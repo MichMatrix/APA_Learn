@@ -1,0 +1,49 @@
+name: apa_learn
+description: "App for learning the knapsack problem and other algorithms problem in a fun and interactive way."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  upgrader: ^10.0.0
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/background/
+    - assets/images/knapsack/
+    - assets/images/logo/
+    - assets/items/
+    - assets/audio/
+    
+  fonts:
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/caveat/CaveatBrush-Regular.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
