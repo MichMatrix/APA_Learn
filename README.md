@@ -8,6 +8,12 @@
 
 ## 📸 Screenshots & Demo
 
+### 🎥 Demo Video
+
+Drive link:
+https://drive.google.com/file/d/1LVvu8wJggGvWyrWdHBafLngYcESaFv6w/view?usp=drive_link
+
+
 ##  Screenshots
 
 ### 🎬 App Flow Preview
@@ -55,12 +61,6 @@
 |-------|------------|----------|--------|
 | ![](screenshots/04-Knapsack-Module-Intro.png) | ![](screenshots/05-Choose-Difficulty.png) | ![](screenshots/06-Play.png) | ![](screenshots/07-Result-and-feedback.png) |
 ```
-
-
-### 🎥 Demo Video
-
-YouTube / Loom / Drive link:
-`https://drive.google.com/file/d/1LVvu8wJggGvWyrWdHBafLngYcESaFv6w/view?usp=drive_link)`
 
 ---
 
