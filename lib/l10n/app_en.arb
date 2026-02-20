@@ -1,0 +1,242 @@
+{
+  "splashSubtitle": "Fun + Algorithms",
+  "loading": "Loading...",
+  "splashFooter": "v0.1 • Knapsack module",
+
+  "appTitle": "APA Learn",
+  "home": "Home",
+  "profile": "Profile",
+  "settings": "Settings",
+  "language": "Language",
+  "portuguese": "Portuguese",
+  "english": "English",
+  "version": "Version",
+
+  "updateTitle": "Update Required",
+  "updateMessage": "A new version of the app is available with important improvements and fixes.\n\nPlease update now to continue.",
+  "updateButton": "Update Now",
+  "updateLater": "Later",
+  "updateIgnore": "Ignore",
+
+  "modules": "Modules",
+  "homeHeroSubtitle": "Learn algorithms like a game.",
+
+  "xpLabel": "XP",
+  "rankLabel": "Rank",
+
+  "difficultyEasy": "Easy",
+  "difficultyMedium": "Medium",
+  "difficultyHard": "Hard",
+
+  "btnGuide": "Guide",
+  "btnPlay": "Play",
+
+  "knapsackTitle": "Knapsack Problem",
+  "knapsackSubtitle": "Pick items and maximize value without exceeding capacity.",
+
+  "tspTitle": "Traveling Salesman Problem",
+  "tspSubtitle": "Find the shortest route visiting all cities and returning to the start.",
+
+  "knapsackIntroAppBarTitle": "Knapsack Problem",
+  "knapsackIntroChooseDifficulty": "Choose your difficulty",
+  "knapsackIntroStartMission": "Start mission",
+  "knapsackIntroHintBeginner": "Tip: focus on items with high value and low weight.",
+  "knapsackIntroHintIntermediate": "Tip: the highest value doesn't always win. Think about combinations.",
+  "knapsackIntroHintAdvanced": "Tip: maximize efficiency (value/weight).",
+  "knapsackIntroHeaderText": "Choose items with weight and value.\nMaximize value without exceeding capacity.",
+
+  "capacityCardTitle": "Backpack capacity",
+  "capacityCardSubtitle": "Adjust capacity to make the challenge your way.",
+
+  "difficultyTagItems": "Items: up to {count}",
+  "@difficultyTagItems": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "difficultyTagCapacity": "Cap.: {min}-{max}",
+  "@difficultyTagCapacity": {
+    "placeholders": {
+      "min": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+
+  "difficultyTagHints": "Hints",
+  "difficultyTagTimer": "Timer",
+
+  "valueLabel": "Value: {value}",
+  "@valueLabel": { "placeholders": { "value": { "type": "int" } } },
+
+  "weightLabel": "Weight: {used} / {capacity}",
+  "@weightLabel": {
+    "placeholders": {
+      "used": { "type": "int" },
+      "capacity": { "type": "int" }
+    }
+  },
+
+  
+  "knapsackBoardingTitle": "Knapsack Problem",
+  "knapsackBoardingSubtitle": "You are an explorer and found treasures! But your backpack has a weight limit.",
+  "knapsackBoardingHighlight": "Pick the right items to maximize your treasure!",
+  "knapsackBoardingObjectiveTitle": "Objective",
+  "knapsackBoardingObjectiveText": "Select items for your backpack respecting the weight limit and maximizing total value!",
+  "knapsackBoardingPillWeight": "Weight Limit",
+  "knapsackBoardingPillValue": "Max Value",
+  "knapsackBoardingCta": "Start Adventure",
+
+
+  "knapsackDifficultyBeginnerTitle": "Beginner",
+  "knapsackDifficultyBeginnerSubtitle": "Fewer items, hints, and no pressure.",
+  "knapsackDifficultyIntermediateTitle": "Intermediate",
+  "knapsackDifficultyIntermediateSubtitle": "More items and tougher choices.",
+  "knapsackDifficultyAdvancedTitle": "Advanced",
+  "knapsackDifficultyAdvancedSubtitle": "Real challenge: more items and fewer hints.",
+  "knapsackItemCoin": "Coin",
+  "knapsackItemGem": "Gem",
+  "knapsackItemBook": "Book",
+  "knapsackItemPhone": "Phone",
+  "knapsackItemWatch": "Watch",
+  "knapsackItemTablet": "Tablet",
+  "knapsackItemKindle": "Kindle",
+  "knapsackItemHeadphone": "Headphones",
+  "knapsackItemVR": "VR",
+  "knapsackItemConsole": "Console",
+
+
+  "knapsackGuideTitle": "Guide: Knapsack Problem",
+  "context": "Context",
+  "whyHard": "Why is it hard?",
+  "howBecomesGame": "How does it become a game?",
+  "commonAlgorithms": "Common algorithms",
+
+  "knapsackGuideContextText": "Imagine you are traveling and can only carry a backpack with limited weight. Each item has weight and value. The goal is to maximize total value without exceeding capacity.",
+  "knapsackGuideWhyHardText": "Testing all possible combinations grows exponentially. That’s why the problem is NP-hard.",
+  "knapsackGuideHowGameText": "You drag items into the backpack. Try to reach the optimal value. Higher levels may include timers and fewer hints.",
+
+
+
+  "greedyTitle": "Greedy",
+  "greedySubtitle": "Fast, but may miss the optimal solution",
+  "greedyBullet1": "Select by best value/weight ratio",
+  "greedyBullet2": "Very fast (good approximation)",
+  "greedyBullet3": "May fail in some cases",
+  "approxBadge": "Approximation",
+
+  "dpTitle": "Dynamic Programming (DP)",
+  "dpSubtitle": "Finds the optimal solution for 0/1 knapsack",
+  "dpBullet1": "Builds a dp[item][capacity] table",
+  "dpBullet2": "Guarantees optimal solution",
+  "dpBullet3": "Time complexity ~ O(n * capacity)",
+  "optimalBadge": "Optimal",
+
+  "bruteforceTitle": "Backtracking / Brute Force",
+  "bruteforceSubtitle": "Explores combinations",
+  "bruteforceBullet1": "Demonstrates combinatorial explosion",
+  "bruteforceBullet2": "Useful for learning",
+  "bruteforceBullet3": "Becomes slow quickly",
+  "didacticBadge": "Didactic",
+
+
+
+  "resultTitle": "Result",
+  "capacityLabel": "Capacity",
+  "usedWeightLabel": "Used Weight",
+  "valueLabel": "Value",
+
+  "failBadge": "Needs Improvement",
+  "okBadge": "Good",
+  "greatBadge": "Excellent",
+
+  "percentageOfOptimal": "You reached {percent}% of optimal",
+  "@percentageOfOptimal": {
+    "placeholders": {
+      "percent": {}
+    }
+  },
+
+  "retry": "Retry",
+  "nextLevel": "Next Level",
+  "homeButton": "Home",
+
+  "suggestion": "Suggestion",
+  "viewOptimalSolution": "View Optimal Solution",
+
+  "knapsackGuideHeroBadge": "Knapsack Problem",
+  "knapsackGuideHeroTitle": "Pick items and maximize value without exceeding capacity.",
+  "knapsackGuideHeroSubtitle": "Understand the context and algorithms before playing.",
+
+  "knapsackPlayTitle": "Game: Knapsack",
+  "knapsackPlayTimerPrefix": "⏱",
+  "knapsackPlayTimerSuffix": "s",
+  "knapsackPlayResetTooltip": "Reset",
+  "knapsackPlayHintBeginner": "Tip: try combining light items with high value.",
+  "knapsackPlayHintIntermediate": "Tip: the most valuable item is not always the best choice.",
+  "knapsackPlayHintAdvanced": "Tip: maximize efficiency (value/weight).",
+  "knapsackPlaySelectedTitle": "In your backpack (tap to remove)",
+  "knapsackPlayAvailableTitle": "Available items (drag)",
+  "knapsackPlayJumpLeftTooltip": "Previous item",
+  "knapsackPlayJumpRightTooltip": "Next item",
+  "knapsackPlayScrollHintLabel": "Swipe",
+  "knapsackPlayFinishCta": "Finish",
+  "knapsackPlayNoItemSelected": "No item was selected yet",
+  "knapsackPlayTap": "Tap",
+  "knapsackPlayDropHere": "Drop here!",
+  "knapsackPlayDragItemstoTheBag": "Drag the items to the bag",
+
+  "knapsackResultTitle": "Result",
+  "knapsackResultGreatTitle": "Great! Excellent decision",
+  "knapsackResultOkTitle": "Ok! Good choice",
+  "knapsackResultFailTitle": "Close! You can improve",
+  "knapsackResultBadgeFail": "FAIL",
+  "knapsackResultBadgeOk": "OK",
+  "knapsackResultBadgeGreat": "GREAT",
+  "knapsackResultOptimalDpLabel": "Optimal (DP)",
+  "knapsackResultGapLabel": "Gap",
+  "knapsackResultSeeOptimalCta": "See optimal solution (DP)",
+  "knapsackResultRetryCta": "Retry",
+  "knapsackResultNextLevelCta": "Next level",
+  "knapsackResultHomeCta": "Home",
+  "knapsackResultCloseCta": "Close",
+  "knapsackResultPctOfOptimal": "{pct}% of optimal",
+  "@knapsackResultPctOfOptimal": {
+    "placeholders": { "pct": { "type": "int" } }
+  },
+  "knapsackResultCapacityUsedWeight": "Capacity: {cap} • Used weight: {used}",
+  "@knapsackResultCapacityUsedWeight": {
+    "placeholders": {
+      "cap": { "type": "int" },
+      "used": { "type": "int" }
+    }
+  },
+  "knapsackResultValue": "Value: {value}",
+  "@knapsackResultValue": {
+    "placeholders": { "value": { "type": "int" } }
+  },
+  "knapsackResultSuggestionLeftoverWithItem": "You left {waste} capacity unused. Try adding \"{name}\" (weight {weight}, value {value}).",
+  "@knapsackResultSuggestionLeftoverWithItem": {
+    "placeholders": {
+      "waste": { "type": "int" },
+      "name": { "type": "String" },
+      "weight": { "type": "int" },
+      "value": { "type": "int" }
+    }
+  },
+  "knapsackResultSuggestionLeftoverGeneric": "You left {waste} capacity unused. Try adding a light item to increase value.",
+  "@knapsackResultSuggestionLeftoverGeneric": {
+    "placeholders": { "waste": { "type": "int" } }
+  },
+  "knapsackResultSuggestionTryInclude": "Tip: optimal solutions often include \"{name}\" (weight {weight}, value {value}). Try swapping items to fit it.",
+  "@knapsackResultSuggestionTryInclude": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "weight": { "type": "int" },
+      "value": { "type": "int" }
+    }
+  },
+  "knapsackResultSuggestionGenericLow": "Try prioritizing items with better value-to-weight ratio (⭐/💪). Heavier items are not always worth it.",
+  "knapsackResultOptimalSheetTitle": "Optimal solution (DP)",
+  
+  "profileScreenSoon": "Profile (coming soon)",
+  "tpsScreenSoon": "Introduction to The Traveling Salesman (coming soon)"
+}
